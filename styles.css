@@ -34,6 +34,11 @@ body {
     font-size: 18pt;
 }
 
+.main-section h2 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 28pt;
+}
+
 /* End of Header */
 
 
@@ -46,7 +51,6 @@ body {
 .main-section > h2 {
     height: 100%;
     width: 80%;
-    font-size: 1.8em;
     padding: 1em;
     color: firebrick;
     text-align: center;
