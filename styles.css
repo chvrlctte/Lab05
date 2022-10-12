@@ -15,21 +15,23 @@ body {
 
 
 /* Step 5: Design the Header */
+.main-header-titles {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:indianred;
+}
+
 .main-header-titles h1 {
     font-family: 'Amatic SC', cursive;
     font-size: 48pt;
-    color:darkslateblue;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .main-header-titles h2 {
     font-family: 'Quicksand', sans-serif;
     font-size: 18pt;
-    display:flex;
-    justify-content: center;
-    align-items: center;
 }
 /* End of Header */
 
