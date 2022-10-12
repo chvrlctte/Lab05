@@ -81,12 +81,24 @@ body {
 
 
 /* Step 9: Design Section 2 */
-
+#section2 {
+    border: 1px solid #d3d3d3;
+    border-radius: 20px;
+    padding: 0.5em;
+    justify-content: center;
+    overflow: hidden;
+}
 
 /* End of Section 2 */
 
-
 /* Step 10: Design Section 3 */
+#section3 {
+    border: 1px solid #d3d3d3;
+    border-radius: 20px;
+    padding: 0.5em;
+    justify-content: center;
+    overflow: hidden;
+}
 
 /* End of Section 3 */
 
