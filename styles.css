@@ -7,7 +7,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Quicksand:wght@300&display=swap');
 /* End of Fonts */
 
-
 /* Step 4: Setup the Defaults */
 body {
     font-family: 'Quicksand', sans-serif;
@@ -19,6 +18,11 @@ body {
 h1 {
     font-family: 'Amatic SC', cursive;
     font-size: 48pt;
+}
+
+h2 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 22pt;
 }
 /* End of Header */
 
