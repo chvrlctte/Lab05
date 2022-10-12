@@ -18,7 +18,10 @@ body {
 .main-header-titles h1 {
     font-family: 'Amatic SC', cursive;
     font-size: 48pt;
-    color:darkslateblue
+    color:darkslateblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 h2 {
