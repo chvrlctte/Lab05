@@ -24,9 +24,12 @@ body {
     align-items: center;
 }
 
-h2 {
-    font-family: 'Amatic SC', cursive;
-    font-size: 22pt;
+.main-header-titles h2 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18pt;
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
 /* End of Header */
 
