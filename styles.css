@@ -18,6 +18,7 @@ body {
 .main-header-titles {
     height: 100%;
     display: flex;
+    padding: 1em;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -29,16 +30,6 @@ body {
     font-size: 48pt;
 }
 
-.main-header-titles h2 {
-    font-family: 'Quicksand', sans-serif;
-    font-size: 18pt;
-}
-
-.main-section h2 {
-    font-family: 'Amatic SC', cursive;
-    font-size: 28pt;
-}
-
 /* End of Header */
 
 
@@ -48,6 +39,11 @@ body {
 
 
 /* Step 7: Define the Section Defaults */
+.main-section h2 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 28pt;
+}
+
 .main-section > h2 {
     height: 100%;
     width: 80%;
@@ -68,20 +64,24 @@ body {
     margin-right: auto;
 }
 
-.main-section > h2, p {
-    border: 1px solid #D3D3D3;
-    padding: 0.5em;
-}
-
 /* End of Section Defaults */
 
 
 /* Step 8: Design Section 1 */
 
+#section1 {
+    border: 1px solid #d3d3d3;
+    border-radius: 20px;
+    padding: 0.5em;
+    justify-content: center;
+    overflow: hidden;
+}
+
 /* End of Section 1 */
 
 
 /* Step 9: Design Section 2 */
+
 
 /* End of Section 2 */
 
