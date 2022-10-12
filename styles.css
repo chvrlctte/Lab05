@@ -45,8 +45,6 @@ body {
 }
 
 .main-section > h2 {
-    height: 100%;
-    width: 80%;
     padding: 1em;
     color: firebrick;
     text-align: center;
@@ -55,10 +53,16 @@ body {
 }
 
 .main-section > p {
-    height: 100%;
-    width: 80%;
     font-size: 1.1em;
     color:black;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main-section-header {
+    font-family: 'Amatic SC', cursive;
+    font-size: 22pt;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -70,9 +74,10 @@ body {
 /* Step 8: Design Section 1 */
 
 #section1 {
+    width: 80%;
     border: 1px solid #d3d3d3;
     border-radius: 20px;
-    padding: 0.5em;
+    margin-bottom: 0.5em;
     justify-content: center;
     overflow: hidden;
 }
@@ -82,20 +87,21 @@ body {
 
 /* Step 9: Design Section 2 */
 #section2 {
+    width: 80%;
     border: 1px solid #d3d3d3;
     border-radius: 20px;
-    padding: 0.5em;
+    margin-bottom: 0.5em;
     justify-content: center;
     overflow: hidden;
 }
-
 /* End of Section 2 */
 
 /* Step 10: Design Section 3 */
 #section3 {
+    width: 80%;
     border: 1px solid #d3d3d3;
     border-radius: 20px;
-    padding: 0.5em;
+    margin-bottom: 0.5em;
     justify-content: center;
     overflow: hidden;
 }
