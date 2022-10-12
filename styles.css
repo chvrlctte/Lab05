@@ -33,6 +33,7 @@ body {
     font-family: 'Quicksand', sans-serif;
     font-size: 18pt;
 }
+
 /* End of Header */
 
 
@@ -42,6 +43,26 @@ body {
 
 
 /* Step 7: Define the Section Defaults */
+.main-section > h2 {
+    height: 100%;
+    width: 80%;
+    font-size: 1.8em;
+    padding: 1em;
+    color: firebrick;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main-section > p {
+    height: 100%;
+    width: 80%;
+    font-size: 1.1em;
+    color:black;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 /* End of Section Defaults */
 
