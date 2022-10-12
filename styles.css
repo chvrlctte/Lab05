@@ -15,9 +15,10 @@ body {
 
 
 /* Step 5: Design the Header */
-h1 {
+.main-header-titles h1 {
     font-family: 'Amatic SC', cursive;
     font-size: 48pt;
+    color:darkslateblue
 }
 
 h2 {
