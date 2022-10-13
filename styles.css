@@ -59,16 +59,17 @@ body {
     margin-right: auto;
 }
 
-.main-section:nth-child(odd) {
-    background-color:lightsalmon;
-}
-
 .main-section-header {
     font-family: 'Amatic SC', cursive;
     font-size: 22pt;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    padding: 0.5em;
+}
+
+.main-section:nth-child(odd) {
+    background-color:lightsalmon;
 }
 
 /* End of Section Defaults */
