@@ -102,6 +102,25 @@ body {
     overflow: hidden;
     color:maroon;
 }
+
+#section2 figure {
+    width: 300px;
+    margin: 0 1em;
+    margin-bottom: 1em;
+}
+
+#section2 > div > figure {
+    float: left;
+}
+
+#section2 > div {
+    margin-top: 2em;
+}
+
+figure > img {
+    width: 100%;
+}
+
 /* End of Section 2 */
 
 /* Step 10: Design Section 3 */
